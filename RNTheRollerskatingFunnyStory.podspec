@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
                    s.dependency 'GCDWebServer', '~> 3.0'
                    s.dependency 'GCDWebServer/WebUploader', '~> 3.0'
                    s.dependency 'GCDWebServer/WebDAV', '~> 3.0'
-                   s.dependency 'UMCommon'
-                   s.dependency 'UMDevice'
-                   s.dependency 'UMAPM'
+                   s.dependency 'UMCommon','~> 7.4.1'
+                   s.dependency 'UMDevice','~> 3.1.0'
+                   s.dependency 'UMAPM','~> 1.8.3'
                    s.dependency 'JJException'
   #s.dependency "others"
 
